@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "ICT Christmas Fillout Helper",
+    "version": "1.0.1",
+    "description": "This extension helps to propperly display the table with the checkboxes on the ICT Christmas awards voting poll.",
+    "short_name": "Short Sample Name",
+    "content_scripts": [
+      {
+        "matches": ["https://form.jotform.com/*"],
+        "css": ["adjustments.css"]
+      }
+    ],
+    "icons":{
+        "16":"icon16.png",
+        "32":"icon32.png"
+    }
+   }

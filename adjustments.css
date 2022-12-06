@@ -1,0 +1,27 @@
+/* Do not limit width */
+.form-all{
+    max-width: unset !important;
+}
+
+.form-line{
+    justify-content: center;
+}
+
+/* Sticky row headers */
+.form-matrix-row-headers {
+    position: sticky !important;
+    z-index: 98;
+    left: 0;
+}
+
+.form-matrix-header-tr{
+    position:sticky;
+    z-index: 99;
+    top:0;
+}
+
+/* Limit size of container, so that sticky works */
+#cid_1{
+    height: 90vh;
+    width:70vw;
+}
